@@ -7,9 +7,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CulinaryDelight {
-    
-    
-    public partial class Contact {
+namespace CulinaryDelight
+{
+    public partial class Contact
+    {
     }
 }
