@@ -1,0 +1,39 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="CulinaryDelight.master.cs" Inherits="CulinaryDelight.CulinaryDelight" %>
+
+<%@ Register src="UserControls/DepartmentsList.ascx" tagname="DepartmentsList" tagprefix="uc1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body id="body" background="Images/00akiw5.gif">
+    <form id="form1" runat="server">
+<div class="Window">
+<div class="Main">
+<div class="Left">
+<div class="Container">
+&nbsp;<uc1:DepartmentsList ID="DepartmentsList1" runat="server" />
+</div>
+</div>
+<div class="Right">
+<div class="Header">
+<asp:HyperLink ID="HeaderLink"
+ImageUrl="~/Images/bannerfans_9215914(3).png" runat="server"
+NavigateUrl="~/Default.aspx" ToolTip="Banner" />
+</div>
+<div class="Contents">
+Place contents here
+<asp:ContentPlaceHolder ID="ContentPlaceHolder1"
+runat="server">
+</asp:ContentPlaceHolder>
+</div>
+</div>
+</div>
+</div>
+</form>
+</body>
+</html>
