@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CulinaryDelight", "CulinaryDelight\CulinaryDelight.csproj", "{26914FD0-CEB7-4D7B-A181-A7E8190F29F7}"
 EndProject
 Global
