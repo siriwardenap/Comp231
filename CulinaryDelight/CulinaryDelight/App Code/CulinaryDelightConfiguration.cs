@@ -16,6 +16,12 @@ namespace CulinaryDelight
         private static string dbConnectionString;
         // Caches the data provider name
         private static string dbProviderName;
+        // Store the number of products per page
+        private readonly static int productsPerPage;
+        // Store the product description length for product lists
+        private readonly static int productDescriptionLength;
+        // Store the name of your shop
+        private readonly static string siteName;
 
         static CulinaryDelightConfiguration()
         {
@@ -23,6 +29,10 @@ namespace CulinaryDelight
                 ["CulinaryDelightConnection"].ConnectionString;
             dbProviderName = ConfigurationManager.ConnectionStrings
                 ["CulinaryDelightConnection"].ProviderName;
+
+            productsPerPage = System.Int32.Parse(ConfigurationManager.AppSettings["ProductDescriptionLength"]);
+
+            siteName = ConfigurationManager.AppSettings["SiteName"];
         }
 
         // Returns the connection string for the BalloonShop database
@@ -95,6 +105,73 @@ namespace CulinaryDelight
             get
             {
                 return ConfigurationManager.AppSettings["ErrorLogEmail"];
+            }
+        }
+
+        // Returns the maximum number of products to be displayed on a page
+        public static int ProductsPerPage
+        {
+            get
+            {
+                return productsPerPage;
+            }
+        }
+
+        // Returns the length of product descriptions in products lists
+        public static int ProductDescriptionLength
+        {
+            get
+            {
+                return productDescriptionLength;
+            }
+        }
+
+        // Returns the length of product descriptions in products lists
+        public static string SiteName
+        {
+            get
+            {
+                return siteName;
+            }
+        }
+        // The PayPal shopping cart URL
+        public static string PaypalUrl
+        {
+            get
+            {
+                return ConfigurationManager.AppSettings["PaypalUrl"];
+            }
+        }
+        // The PayPal email account
+        public static string PaypalEmail
+        {
+            get
+            {
+                return ConfigurationManager.AppSettings["PaypalEmail"];
+            }
+        }
+        // Currency code (such as USD)
+        public static string PaypalCurrency
+        {
+            get
+            {
+                return ConfigurationManager.AppSettings["PaypalCurrency"];
+            }
+        }
+        // Return URL after a successful transaction
+        public static string PaypalReturnUrl
+        {
+            get
+            {
+                return ConfigurationManager.AppSettings["PaypalReturnUrl"];
+            }
+        }
+        // Return URL after a canceled transaction
+        public static string PaypalCancelUrl
+        {
+            get
+            {
+                return ConfigurationManager.AppSettings["PaypalCancelUrl"];
             }
         }
     }

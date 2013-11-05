@@ -4,6 +4,13 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
+<script runat="server">
+protected void Page Load(object sender, EventArgs e)
+{
+// set the 500 status code
+Response.Status = "500 Internal Server Error";
+}
+</script>
     <title>CulinaryDelight: Oops!</title>
 </head>
 <body>
