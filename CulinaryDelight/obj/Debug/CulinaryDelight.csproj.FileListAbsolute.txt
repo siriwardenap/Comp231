@@ -203,3 +203,41 @@ C:\Users\Hui\Desktop\Fall2013\COMP231\Project doc\CulinaryDelight-V3\CulinaryDel
 C:\Users\Hui\Desktop\Fall2013\COMP231\Project doc\CulinaryDelight-V3\CulinaryDelight\bin\zh-CHS\AjaxControlToolkit.resources.dll
 C:\Users\Hui\Desktop\Fall2013\COMP231\Project doc\CulinaryDelight-V3\CulinaryDelight\bin\zh-CHT\AjaxControlToolkit.resources.dll
 C:\Users\Hui\Desktop\Fall2013\COMP231\Project doc\CulinaryDelight-V3\CulinaryDelight\obj\Debug\CulinaryDelight.pdb
+C:\Users\Trsp\Documents\GitHub\Comp231\CulinaryDelight\bin\CulinaryDelight.dll
+C:\Users\Trsp\Documents\GitHub\Comp231\CulinaryDelight\bin\CulinaryDelight.pdb
+C:\Users\Trsp\Documents\GitHub\Comp231\CulinaryDelight\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Trsp\Documents\GitHub\Comp231\CulinaryDelight\bin\Microsoft.WindowsAzure.Storage.dll
+C:\Users\Trsp\Documents\GitHub\Comp231\CulinaryDelight\bin\HtmlAgilityPack.dll
+C:\Users\Trsp\Documents\GitHub\Comp231\CulinaryDelight\bin\AjaxMin.dll
+C:\Users\Trsp\Documents\GitHub\Comp231\CulinaryDelight\bin\AjaxControlToolkit.pdb
+C:\Users\Trsp\Documents\GitHub\Comp231\CulinaryDelight\bin\Microsoft.Web.Infrastructure.xml
+C:\Users\Trsp\Documents\GitHub\Comp231\CulinaryDelight\bin\EntityFramework.xml
+C:\Users\Trsp\Documents\GitHub\Comp231\CulinaryDelight\bin\DotNetOpenAuth.Core.xml
+C:\Users\Trsp\Documents\GitHub\Comp231\CulinaryDelight\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Trsp\Documents\GitHub\Comp231\CulinaryDelight\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Trsp\Documents\GitHub\Comp231\CulinaryDelight\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Trsp\Documents\GitHub\Comp231\CulinaryDelight\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Trsp\Documents\GitHub\Comp231\CulinaryDelight\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Trsp\Documents\GitHub\Comp231\CulinaryDelight\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+C:\Users\Trsp\Documents\GitHub\Comp231\CulinaryDelight\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Trsp\Documents\GitHub\Comp231\CulinaryDelight\bin\Microsoft.WindowsAzure.Storage.xml
+C:\Users\Trsp\Documents\GitHub\Comp231\CulinaryDelight\bin\ar\AjaxControlToolkit.resources.dll
+C:\Users\Trsp\Documents\GitHub\Comp231\CulinaryDelight\bin\cs\AjaxControlToolkit.resources.dll
+C:\Users\Trsp\Documents\GitHub\Comp231\CulinaryDelight\bin\de\AjaxControlToolkit.resources.dll
+C:\Users\Trsp\Documents\GitHub\Comp231\CulinaryDelight\bin\es\AjaxControlToolkit.resources.dll
+C:\Users\Trsp\Documents\GitHub\Comp231\CulinaryDelight\bin\fr\AjaxControlToolkit.resources.dll
+C:\Users\Trsp\Documents\GitHub\Comp231\CulinaryDelight\bin\he\AjaxControlToolkit.resources.dll
+C:\Users\Trsp\Documents\GitHub\Comp231\CulinaryDelight\bin\hi\AjaxControlToolkit.resources.dll
+C:\Users\Trsp\Documents\GitHub\Comp231\CulinaryDelight\bin\it\AjaxControlToolkit.resources.dll
+C:\Users\Trsp\Documents\GitHub\Comp231\CulinaryDelight\bin\ja\AjaxControlToolkit.resources.dll
+C:\Users\Trsp\Documents\GitHub\Comp231\CulinaryDelight\bin\ko\AjaxControlToolkit.resources.dll
+C:\Users\Trsp\Documents\GitHub\Comp231\CulinaryDelight\bin\nl\AjaxControlToolkit.resources.dll
+C:\Users\Trsp\Documents\GitHub\Comp231\CulinaryDelight\bin\pl\AjaxControlToolkit.resources.dll
+C:\Users\Trsp\Documents\GitHub\Comp231\CulinaryDelight\bin\pt\AjaxControlToolkit.resources.dll
+C:\Users\Trsp\Documents\GitHub\Comp231\CulinaryDelight\bin\ru\AjaxControlToolkit.resources.dll
+C:\Users\Trsp\Documents\GitHub\Comp231\CulinaryDelight\bin\tr-TR\AjaxControlToolkit.resources.dll
+C:\Users\Trsp\Documents\GitHub\Comp231\CulinaryDelight\bin\zh-CHS\AjaxControlToolkit.resources.dll
+C:\Users\Trsp\Documents\GitHub\Comp231\CulinaryDelight\bin\zh-CHT\AjaxControlToolkit.resources.dll
+C:\Users\Trsp\Documents\GitHub\Comp231\CulinaryDelight\obj\Debug\CulinaryDelight.csprojResolveAssemblyReference.cache
+C:\Users\Trsp\Documents\GitHub\Comp231\CulinaryDelight\obj\Debug\CulinaryDelight.dll
+C:\Users\Trsp\Documents\GitHub\Comp231\CulinaryDelight\obj\Debug\CulinaryDelight.pdb
