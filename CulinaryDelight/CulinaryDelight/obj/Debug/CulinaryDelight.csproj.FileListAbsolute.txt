@@ -5,3 +5,5 @@ C:\Users\jeevan\documents\visual studio 2010\Projects\CulinaryDelight\CulinaryDe
 C:\Users\jeevan\documents\visual studio 2010\Projects\CulinaryDelight\CulinaryDelight\obj\Debug\CulinaryDelight.csprojResolveAssemblyReference.cache
 C:\Users\Trsp\Documents\GitHub\Comp231\CulinaryDelight\CulinaryDelight\obj\Debug\CulinaryDelight.csprojResolveAssemblyReference.cache
 C:\Users\Trsp\Documents\GitHub\Comp231\CulinaryDelight\CulinaryDelight\obj\Debug\CulinaryDelight.dll
+C:\Users\MANOMA\Documents\GitHub\Comp231\CulinaryDelight\CulinaryDelight\obj\Debug\CulinaryDelight.csprojResolveAssemblyReference.cache
+C:\Users\MANOMA\Documents\GitHub\Comp231\CulinaryDelight\CulinaryDelight\obj\Debug\CulinaryDelight.dll
