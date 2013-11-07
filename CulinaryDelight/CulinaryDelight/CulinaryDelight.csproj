@@ -20,6 +20,10 @@
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
     <OldToolsVersion>4.0</OldToolsVersion>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -64,6 +68,7 @@
     <Content Include="Catalog.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="GujaratiMenu.aspx" />
     <Content Include="Images\00akiw5.gif" />
     <Content Include="Images\1.jpg" />
     <Content Include="Images\10.jpg" />
@@ -142,6 +147,15 @@
     <Compile Include="NotFound.aspx.cs">
       <DependentUpon>NotFound.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+    <Compile Include="GujaratiMenu.aspx.cs">
+      <DependentUpon>GujaratiMenu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GujaratiMenu.aspx.designer.cs">
+      <DependentUpon>GujaratiMenu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NotFound.aspx.cs">
+      <DependentUpon>NotFound.aspx</DependentUpon>
     </Compile>
     <Compile Include="NotFound.aspx.designer.cs">
       <DependentUpon>NotFound.aspx</DependentUpon>

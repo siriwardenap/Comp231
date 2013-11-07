@@ -6,7 +6,11 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 <h1>
+<<<<<<< HEAD
 <span class="CatalogTitle">Welcome to BalloonShop!</span>
+=======
+<span class="CatalogTitle">Welcome !</span>
+>>>>>>> origin/HF
 </h1>
 <h2>
 <span class="CatalogDescription">This week we have a special price
