@@ -1,9 +1,30 @@
-C:\Users\jeevan\documents\visual studio 2010\Projects\CulinaryDelight\CulinaryDelight\bin\CulinaryDelight.dll
-C:\Users\jeevan\documents\visual studio 2010\Projects\CulinaryDelight\CulinaryDelight\bin\CulinaryDelight.pdb
-C:\Users\jeevan\documents\visual studio 2010\Projects\CulinaryDelight\CulinaryDelight\obj\Debug\CulinaryDelight.dll
-C:\Users\jeevan\documents\visual studio 2010\Projects\CulinaryDelight\CulinaryDelight\obj\Debug\CulinaryDelight.pdb
-C:\Users\jeevan\documents\visual studio 2010\Projects\CulinaryDelight\CulinaryDelight\obj\Debug\CulinaryDelight.csprojResolveAssemblyReference.cache
-C:\Users\Trsp\Documents\GitHub\Comp231\CulinaryDelight\CulinaryDelight\obj\Debug\CulinaryDelight.csprojResolveAssemblyReference.cache
-C:\Users\Trsp\Documents\GitHub\Comp231\CulinaryDelight\CulinaryDelight\obj\Debug\CulinaryDelight.dll
-C:\Users\MANOMA\Documents\GitHub\Comp231\CulinaryDelight\CulinaryDelight\obj\Debug\CulinaryDelight.csprojResolveAssemblyReference.cache
-C:\Users\MANOMA\Documents\GitHub\Comp231\CulinaryDelight\CulinaryDelight\obj\Debug\CulinaryDelight.dll
+C:\Users\Hui\Documents\Visual Studio 2012\Projects\CulinaryDelight\CulinaryDelight\bin\CulinaryDelight.dll
+C:\Users\Hui\Documents\Visual Studio 2012\Projects\CulinaryDelight\CulinaryDelight\bin\CulinaryDelight.pdb
+C:\Users\Hui\Documents\Visual Studio 2012\Projects\CulinaryDelight\CulinaryDelight\bin\Antlr3.Runtime.dll
+C:\Users\Hui\Documents\Visual Studio 2012\Projects\CulinaryDelight\CulinaryDelight\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Hui\Documents\Visual Studio 2012\Projects\CulinaryDelight\CulinaryDelight\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\Hui\Documents\Visual Studio 2012\Projects\CulinaryDelight\CulinaryDelight\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Hui\Documents\Visual Studio 2012\Projects\CulinaryDelight\CulinaryDelight\bin\DotNetOpenAuth.Core.dll
+C:\Users\Hui\Documents\Visual Studio 2012\Projects\CulinaryDelight\CulinaryDelight\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Hui\Documents\Visual Studio 2012\Projects\CulinaryDelight\CulinaryDelight\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Hui\Documents\Visual Studio 2012\Projects\CulinaryDelight\CulinaryDelight\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Hui\Documents\Visual Studio 2012\Projects\CulinaryDelight\CulinaryDelight\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Hui\Documents\Visual Studio 2012\Projects\CulinaryDelight\CulinaryDelight\bin\EntityFramework.dll
+C:\Users\Hui\Documents\Visual Studio 2012\Projects\CulinaryDelight\CulinaryDelight\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\Hui\Documents\Visual Studio 2012\Projects\CulinaryDelight\CulinaryDelight\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Hui\Documents\Visual Studio 2012\Projects\CulinaryDelight\CulinaryDelight\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Hui\Documents\Visual Studio 2012\Projects\CulinaryDelight\CulinaryDelight\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Hui\Documents\Visual Studio 2012\Projects\CulinaryDelight\CulinaryDelight\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Hui\Documents\Visual Studio 2012\Projects\CulinaryDelight\CulinaryDelight\bin\System.Web.Optimization.dll
+C:\Users\Hui\Documents\Visual Studio 2012\Projects\CulinaryDelight\CulinaryDelight\bin\System.Web.Providers.dll
+C:\Users\Hui\Documents\Visual Studio 2012\Projects\CulinaryDelight\CulinaryDelight\bin\WebGrease.dll
+C:\Users\Hui\Documents\Visual Studio 2012\Projects\CulinaryDelight\CulinaryDelight\bin\EntityFramework.xml
+C:\Users\Hui\Documents\Visual Studio 2012\Projects\CulinaryDelight\CulinaryDelight\bin\DotNetOpenAuth.Core.xml
+C:\Users\Hui\Documents\Visual Studio 2012\Projects\CulinaryDelight\CulinaryDelight\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Hui\Documents\Visual Studio 2012\Projects\CulinaryDelight\CulinaryDelight\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Hui\Documents\Visual Studio 2012\Projects\CulinaryDelight\CulinaryDelight\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Hui\Documents\Visual Studio 2012\Projects\CulinaryDelight\CulinaryDelight\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Hui\Documents\Visual Studio 2012\Projects\CulinaryDelight\CulinaryDelight\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Hui\Documents\Visual Studio 2012\Projects\CulinaryDelight\CulinaryDelight\obj\Debug\CulinaryDelight.dll
+C:\Users\Hui\Documents\Visual Studio 2012\Projects\CulinaryDelight\CulinaryDelight\obj\Debug\CulinaryDelight.pdb
+C:\Users\Hui\Documents\Visual Studio 2012\Projects\CulinaryDelight\CulinaryDelight\obj\Debug\CulinaryDelight.csprojResolveAssemblyReference.cache
