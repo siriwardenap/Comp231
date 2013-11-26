@@ -27,12 +27,4 @@ C:\Users\Hui\Documents\Visual Studio 2012\Projects\CulinaryDelight\CulinaryDelig
 C:\Users\Hui\Documents\Visual Studio 2012\Projects\CulinaryDelight\CulinaryDelight\bin\DotNetOpenAuth.AspNet.xml
 C:\Users\Hui\Documents\Visual Studio 2012\Projects\CulinaryDelight\CulinaryDelight\obj\Debug\CulinaryDelight.dll
 C:\Users\Hui\Documents\Visual Studio 2012\Projects\CulinaryDelight\CulinaryDelight\obj\Debug\CulinaryDelight.pdb
-<<<<<<< HEAD
-<<<<<<< HEAD
-C:\Users\Hui\documents\visual studio 2012\Projects\CulinaryDelight\CulinaryDelight\obj\Debug\CulinaryDelight.csprojResolveAssemblyReference.cache
-=======
 C:\Users\Hui\Documents\Visual Studio 2012\Projects\CulinaryDelight\CulinaryDelight\obj\Debug\CulinaryDelight.csprojResolveAssemblyReference.cache
->>>>>>> e8413caac5f7fe215df588634d6cc00270a487b5
-=======
-C:\Users\Hui\Documents\Visual Studio 2012\Projects\CulinaryDelight\CulinaryDelight\obj\Debug\CulinaryDelight.csprojResolveAssemblyReference.cache
->>>>>>> e8413caac5f7fe215df588634d6cc00270a487b5

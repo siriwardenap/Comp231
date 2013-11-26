@@ -285,6 +285,9 @@
     <Content Include="App_Code\UnitTestProfileDataSource.cs" />
     <Content Include="App_Code\SecurityLib\UnitTestPasswordHasher.cs" />
     <Content Include="App_Code\SecurityLib\UnitTestStringEncryptor.cs" />
+    <Content Include="App_Code\SecurityLib\SecureCardException.cs" />
+    <Content Include="App_Code\SecurityLib\SecureCard.cs" />
+    <Content Include="App_Code\SecurityLib\UnitTestSecureCard.cs" />
     <Compile Include="CartItem .cs" />
     <Compile Include="Gujarati.aspx.cs">
       <DependentUpon>Gujarati.aspx</DependentUpon>

@@ -66,6 +66,66 @@ using System.Web;
             set { phone = value; }
         }
 
+        private string email;
+
+        public string Email
+        {
+            get { return email; }
+            set { email = value; }
+        }
+
+        //begin block1 of code adding in the story of user can save his credit card info in account        
+        private string creditCard;
+
+        public string CreditCard
+        {
+            get { return creditCard; }
+            set { creditCard = value; }
+        }
+        private string creditCardHolder;
+
+        public string CreditCardHolder
+        {
+            get { return creditCardHolder; }
+            set { creditCardHolder = value; }
+        }
+        private string creditCardNumber;
+
+        public string CreditCardNumber
+        {
+            get { return creditCardNumber; }
+            set { creditCardNumber = value; }
+        }
+        private string creditCardIssueDate;
+
+        public string CreditCardIssueDate
+        {
+            get { return creditCardIssueDate; }
+            set { creditCardIssueDate = value; }
+        }
+        private string creditCardIssueNumber;
+
+        public string CreditCardIssueNumber
+        {
+            get { return creditCardIssueNumber; }
+            set { creditCardIssueNumber = value; }
+        }
+        private string creditCardExpiryDate;
+
+        public string CreditCardExpiryDate
+        {
+            get { return creditCardExpiryDate; }
+            set { creditCardExpiryDate = value; }
+        }
+        private string creditCardType;
+
+        public string CreditCardType
+        {
+            get { return creditCardType; }
+            set { creditCardType = value; }
+        }
+        //end block1 of code for story of user can save his credit card info in account
+
         public ProfileWrapper()
         {
             ProfileCommon profile = HttpContext.Current.Profile as ProfileCommon;
@@ -77,6 +137,25 @@ using System.Web;
             province = (profile.Province == null || profile.Province == "" ? "Ontario" : profile.Province);
             postalCode = profile.PostalCode;
             phone = profile.Phone;
+            email = Membership.GetUser(profile.UserName).Email;
+
+            //begin block2 of code adding in the story of user can save his credit card info in account
+            try
+            {
+                SecureCard secureCard = new SecureCard(profile.CreditCard);
+                creditCard = secureCard.CardNumberX;
+                creditCardHolder = secureCard.CardHolder;
+                creditCardNumber = secureCard.CardNumber;
+                creditCardIssueDate = secureCard.IssueDate;
+                creditCardIssueNumber = secureCard.IssueNumber;
+                creditCardExpiryDate = secureCard.ExpiryDate;
+                creditCardType = secureCard.CardType;
+            }
+            catch
+            {
+                creditCard = "Not entered.";
+            }
+            //end block2 of code for story of user can save his credit card info in account
         }
 
         public void UpdateProfile()
@@ -90,5 +169,22 @@ using System.Web;
             profile.Province = province;
             profile.PostalCode = postalCode;
             profile.Phone = phone;
+            MembershipUser user = Membership.GetUser(profile.UserName);
+            user.Email = email;
+            Membership.UpdateUser(user);
+
+            //begin block3 of code adding in the story of user can save his credit card info in account
+            try
+            {
+                SecureCard secureCard = new SecureCard(creditCardHolder, creditCardNumber,
+                    creditCardIssueDate, creditCardExpiryDate, creditCardIssueNumber, creditCardType);
+                profile.CreditCard = secureCard.EncryptedData;
+               
+            }
+            catch
+            {
+                creditCard = "";
+            }
+            //end block3 of code for story of user can save his credit card info in account
         }
     }

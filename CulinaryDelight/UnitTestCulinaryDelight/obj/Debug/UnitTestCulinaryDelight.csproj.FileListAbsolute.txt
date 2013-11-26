@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 C:\Users\Hui\documents\visual studio 2012\Projects\CulinaryDelight\UnitTestCulinaryDelight\bin\Debug\UnitTestCulinaryDelight.dll
 C:\Users\Hui\documents\visual studio 2012\Projects\CulinaryDelight\UnitTestCulinaryDelight\bin\Debug\UnitTestCulinaryDelight.pdb
 C:\Users\Hui\documents\visual studio 2012\Projects\CulinaryDelight\UnitTestCulinaryDelight\bin\Debug\CulinaryDelight.dll
@@ -25,35 +23,3 @@ C:\Users\Hui\documents\visual studio 2012\Projects\CulinaryDelight\UnitTestCulin
 C:\Users\Hui\documents\visual studio 2012\Projects\CulinaryDelight\UnitTestCulinaryDelight\obj\Debug\UnitTestCulinaryDelight.csprojResolveAssemblyReference.cache
 C:\Users\Hui\documents\visual studio 2012\Projects\CulinaryDelight\UnitTestCulinaryDelight\obj\Debug\UnitTestCulinaryDelight.dll
 C:\Users\Hui\documents\visual studio 2012\Projects\CulinaryDelight\UnitTestCulinaryDelight\obj\Debug\UnitTestCulinaryDelight.pdb
-=======
-=======
->>>>>>> e8413caac5f7fe215df588634d6cc00270a487b5
-C:\Users\Hui\Documents\Visual Studio 2012\Projects\CulinaryDelight\UnitTestCulinaryDelight\bin\Debug\UnitTestCulinaryDelight.dll
-C:\Users\Hui\Documents\Visual Studio 2012\Projects\CulinaryDelight\UnitTestCulinaryDelight\bin\Debug\UnitTestCulinaryDelight.pdb
-C:\Users\Hui\Documents\Visual Studio 2012\Projects\CulinaryDelight\UnitTestCulinaryDelight\bin\Debug\CulinaryDelight.dll
-C:\Users\Hui\Documents\Visual Studio 2012\Projects\CulinaryDelight\UnitTestCulinaryDelight\bin\Debug\Microsoft.AspNet.Membership.OpenAuth.dll
-C:\Users\Hui\Documents\Visual Studio 2012\Projects\CulinaryDelight\UnitTestCulinaryDelight\bin\Debug\System.Web.Optimization.dll
-C:\Users\Hui\Documents\Visual Studio 2012\Projects\CulinaryDelight\UnitTestCulinaryDelight\bin\Debug\EntityFramework.dll
-C:\Users\Hui\Documents\Visual Studio 2012\Projects\CulinaryDelight\UnitTestCulinaryDelight\bin\Debug\DotNetOpenAuth.AspNet.dll
-C:\Users\Hui\Documents\Visual Studio 2012\Projects\CulinaryDelight\UnitTestCulinaryDelight\bin\Debug\WebGrease.dll
-C:\Users\Hui\Documents\Visual Studio 2012\Projects\CulinaryDelight\UnitTestCulinaryDelight\bin\Debug\DotNetOpenAuth.OAuth.Consumer.dll
-C:\Users\Hui\Documents\Visual Studio 2012\Projects\CulinaryDelight\UnitTestCulinaryDelight\bin\Debug\DotNetOpenAuth.OAuth.dll
-C:\Users\Hui\Documents\Visual Studio 2012\Projects\CulinaryDelight\UnitTestCulinaryDelight\bin\Debug\DotNetOpenAuth.Core.dll
-C:\Users\Hui\Documents\Visual Studio 2012\Projects\CulinaryDelight\UnitTestCulinaryDelight\bin\Debug\DotNetOpenAuth.OpenId.RelyingParty.dll
-C:\Users\Hui\Documents\Visual Studio 2012\Projects\CulinaryDelight\UnitTestCulinaryDelight\bin\Debug\DotNetOpenAuth.OpenId.dll
-C:\Users\Hui\Documents\Visual Studio 2012\Projects\CulinaryDelight\UnitTestCulinaryDelight\bin\Debug\Antlr3.Runtime.dll
-C:\Users\Hui\Documents\Visual Studio 2012\Projects\CulinaryDelight\UnitTestCulinaryDelight\bin\Debug\CulinaryDelight.pdb
-C:\Users\Hui\Documents\Visual Studio 2012\Projects\CulinaryDelight\UnitTestCulinaryDelight\bin\Debug\EntityFramework.xml
-C:\Users\Hui\Documents\Visual Studio 2012\Projects\CulinaryDelight\UnitTestCulinaryDelight\bin\Debug\DotNetOpenAuth.AspNet.xml
-C:\Users\Hui\Documents\Visual Studio 2012\Projects\CulinaryDelight\UnitTestCulinaryDelight\bin\Debug\DotNetOpenAuth.OAuth.Consumer.xml
-C:\Users\Hui\Documents\Visual Studio 2012\Projects\CulinaryDelight\UnitTestCulinaryDelight\bin\Debug\DotNetOpenAuth.OAuth.xml
-C:\Users\Hui\Documents\Visual Studio 2012\Projects\CulinaryDelight\UnitTestCulinaryDelight\bin\Debug\DotNetOpenAuth.Core.xml
-C:\Users\Hui\Documents\Visual Studio 2012\Projects\CulinaryDelight\UnitTestCulinaryDelight\bin\Debug\DotNetOpenAuth.OpenId.RelyingParty.xml
-C:\Users\Hui\Documents\Visual Studio 2012\Projects\CulinaryDelight\UnitTestCulinaryDelight\bin\Debug\DotNetOpenAuth.OpenId.xml
-C:\Users\Hui\Documents\Visual Studio 2012\Projects\CulinaryDelight\UnitTestCulinaryDelight\obj\Debug\UnitTestCulinaryDelight.csprojResolveAssemblyReference.cache
-C:\Users\Hui\Documents\Visual Studio 2012\Projects\CulinaryDelight\UnitTestCulinaryDelight\obj\Debug\UnitTestCulinaryDelight.dll
-C:\Users\Hui\Documents\Visual Studio 2012\Projects\CulinaryDelight\UnitTestCulinaryDelight\obj\Debug\UnitTestCulinaryDelight.pdb
-<<<<<<< HEAD
->>>>>>> e8413caac5f7fe215df588634d6cc00270a487b5
-=======
->>>>>>> e8413caac5f7fe215df588634d6cc00270a487b5
