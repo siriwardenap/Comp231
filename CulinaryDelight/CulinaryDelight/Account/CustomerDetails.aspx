@@ -4,9 +4,9 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="FeaturedContent" runat="server">
+<%--<asp:Content ID="Content2" ContentPlaceHolderID="FeaturedContent" runat="server">
      
-</asp:Content>
+</asp:Content>--%>
 <asp:Content ID="Content3" ContentPlaceHolderID="MainContent" runat="server">
     <h1 style="color: #ac2929;">Welcome <%: Membership.GetUser() %> </h1>
     <h2 style="color: #ff6a00">Edit Your Details</h2>

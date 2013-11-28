@@ -124,6 +124,8 @@
   <ItemGroup>
     <Content Include="About.aspx" />
     <Content Include="Account\CustomerDetails.aspx" />
+    <Content Include="Account\Images\00akiw5.gif" />
+    <Content Include="Account\Images\bannerfans_9215914%283%29.png" />
     <Content Include="Account\Login.aspx" />
     <Content Include="Account\OpenAuthProviders.ascx" />
     <Content Include="Account\RegisterCustomer.aspx" />

@@ -39,7 +39,7 @@
         <div class="content-wrapper">
             <div class="float-left">
                 <p class="site-title">
-                    <a runat="server" href="~/">CULINARYDELIGHT.INFO</a>
+                    CULINARYDELIGHT.INFO
                 </p>
             </div>
             <div class="float-right">
@@ -70,18 +70,12 @@
 
                 <asp:Menu ID="Menu1" runat="server" StaticDisplayLevels="3" Orientation="Horizontal">
                   <Items>
-                    <asp:MenuItem Text="Home" ToolTip="Home" SeparatorImageUrl="~/Default.aspx" NavigateUrl="~/Default.aspx">
-      
-                    </asp:MenuItem>
-   
-                      <asp:MenuItem Text="Sri-Lankan" Enabled="True" ToolTip="sri-lankan" Value="1"></asp:MenuItem>
-                      <asp:MenuItem Text="Gujarati" Enabled="True" ToolTip="gujarati" Value="2" NavigateUrl="~/Gujarati.aspx"></asp:MenuItem>
-                        <asp:MenuItem Text="Tandoori" Enabled="True" ToolTip="tandoori" Value="3"></asp:MenuItem>
-   
-                    <asp:MenuItem Text="About" NavigateUrl="~/About.aspx">
-                    </asp:MenuItem>
-                       <asp:MenuItem Text="Contact Us" Value="View" NavigateUrl="~/Contact.aspx">
-                    </asp:MenuItem>
+                    <asp:MenuItem Text="Home" ToolTip="Home" NavigateUrl="~\Default.aspx"></asp:MenuItem>   
+                    <asp:MenuItem Text="Sri-Lankan" Enabled="True" ToolTip="sri-lankan" Value="1"></asp:MenuItem>
+                    <asp:MenuItem Text="Gujarati" Enabled="True" ToolTip="gujarati" Value="2" NavigateUrl="~\Gujarati.aspx"></asp:MenuItem>
+                    <asp:MenuItem Text="Tandoori" Enabled="True" ToolTip="tandoori" Value="3"></asp:MenuItem>   
+                    <asp:MenuItem Text="About" NavigateUrl="~\About.aspx"></asp:MenuItem>                    
+                    <asp:MenuItem Text="Contact Us" Value="View" NavigateUrl="~\Contact.aspx"></asp:MenuItem>                    
                   </Items>
                 </asp:Menu>
 
