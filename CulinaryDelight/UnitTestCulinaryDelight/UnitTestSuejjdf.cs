@@ -1,11 +1,10 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-//using CulinaryDelight;
 
 namespace UnitTestCulinaryDelight
 {
     [TestClass]
-    public class UnitTest1
+    public class UnitTestSuejjdf
     {
         [TestMethod]
         public void TestMethod1()

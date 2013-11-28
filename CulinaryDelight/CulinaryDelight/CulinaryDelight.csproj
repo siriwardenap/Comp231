@@ -45,6 +45,7 @@
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
@@ -255,6 +256,7 @@
     <Content Include="Bundle.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Account\CancelAccount.cs" />
     <Compile Include="Account\CustomerDetails.aspx.cs">
       <DependentUpon>CustomerDetails.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -288,6 +290,7 @@
     <Content Include="App_Code\SecurityLib\SecureCardException.cs" />
     <Content Include="App_Code\SecurityLib\SecureCard.cs" />
     <Content Include="App_Code\SecurityLib\UnitTestSecureCard.cs" />
+    <Compile Include="Account\UnitTestCancelAccount.cs" />
     <Compile Include="CartItem .cs" />
     <Compile Include="Gujarati.aspx.cs">
       <DependentUpon>Gujarati.aspx</DependentUpon>
