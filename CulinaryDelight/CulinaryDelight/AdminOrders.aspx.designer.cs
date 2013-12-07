@@ -10,87 +10,105 @@
 namespace CulinaryDelight {
     
     
-    public partial class PayInformation {
+    public partial class AdminOrders {
         
         /// <summary>
-        /// Label1 control.
+        /// recentCountTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label1;
+        protected global::System.Web.UI.WebControls.TextBox recentCountTextBox;
         
         /// <summary>
-        /// Label2 control.
+        /// byRecentGo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label2;
+        protected global::System.Web.UI.WebControls.Button byRecentGo;
         
         /// <summary>
-        /// TextBox1 control.
+        /// startDateTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
+        protected global::System.Web.UI.WebControls.TextBox startDateTextBox;
         
         /// <summary>
-        /// TextBox2 control.
+        /// endDateTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox2;
+        protected global::System.Web.UI.WebControls.TextBox endDateTextBox;
         
         /// <summary>
-        /// TextBox3 control.
+        /// byDateGo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox3;
+        protected global::System.Web.UI.WebControls.Button byDateGo;
         
         /// <summary>
-        /// TextBox4 control.
+        /// errorLabel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox4;
+        protected global::System.Web.UI.WebControls.Label errorLabel;
         
         /// <summary>
-        /// ButtonCancelPayment control.
+        /// startDateValidator control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ButtonCancelPayment;
+        protected global::System.Web.UI.WebControls.RangeValidator startDateValidator;
         
         /// <summary>
-        /// ButtonEditInformation control.
+        /// endDateValidator control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ButtonEditInformation;
+        protected global::System.Web.UI.WebControls.RangeValidator endDateValidator;
         
         /// <summary>
-        /// ButtonProceedWithPayment control.
+        /// compareDatesValidator control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ButtonProceedWithPayment;
+        protected global::System.Web.UI.WebControls.CompareValidator compareDatesValidator;
+        
+        /// <summary>
+        /// validationSummary control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ValidationSummary validationSummary;
+        
+        /// <summary>
+        /// grid control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView grid;
     }
 }

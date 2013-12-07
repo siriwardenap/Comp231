@@ -1,7 +1,7 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Gujarati.aspx.cs" Inherits="CulinaryDelight.Srilankan" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Tandoori.aspx.cs" Inherits="CulinaryDelight.Tandoori" %>
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
     <div>
-         <h1>Gujarati Menu</h1>
+         <h1>Tandoori Menu</h1>
          <asp:GridView ID="GridView1" runat="server" AllowPaging="True"   
             AllowSorting="True" AutoGenerateColumns="False" DataKeyNames="id"  onrowcommand="GridView1_OnRowCommand">  
             <Columns>  
@@ -23,3 +23,4 @@
     </div>
 
 </asp:Content>
+

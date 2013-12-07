@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Web.Security;
+using CulinaryDelight;
 
 namespace CulinaryDelight
 {
@@ -80,6 +82,21 @@ namespace CulinaryDelight
             }
 
             BindData();
+        }
+
+        protected void checkoutButton_Click(object sender, EventArgs e)
+        {
+            string user = HttpContext.Current.User.Identity.Name;
+            if (user == null || user == "" || user == string.Empty)
+            {
+                Response.Redirect("~/Account/Login.aspx");
+            }
+            else
+            {
+                // Redirect to the checkout page
+                Response.Redirect("~/Checkout.aspx");
+            }
+            
         }
 
     }

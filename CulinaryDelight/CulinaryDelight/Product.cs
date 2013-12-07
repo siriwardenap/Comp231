@@ -19,12 +19,12 @@ namespace CulinaryDelight
 
             // Create a connection to the "pubs" SQL database located on the 
             // local computer.
-            SqlConnection myConnection = new SqlConnection("server=Hui-PC; User ID =onlineordersystem;" +
+            SqlConnection myConnection = new SqlConnection("Server=(local); User ID =onlineordersystem;" +
                    "Password=password; database=OnlineOrderSystem;");
             // Connect to the SQL database using a SQL SELECT query to get all 
             // the data from the "Authors" table.
             SqlDataAdapter myCommand = new SqlDataAdapter("SELECT " +
-               " * FROM Gujarati Where id=" + id, myConnection);
+               " * FROM Product Where id=" + id, myConnection);
             // Create and fill a DataSet.
             DataSet ds = new DataSet();
             myCommand.Fill(ds);

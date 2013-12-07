@@ -129,6 +129,10 @@
     <Content Include="Account\Login.aspx" />
     <Content Include="Account\OpenAuthProviders.ascx" />
     <Content Include="Account\RegisterCustomer.aspx" />
+    <Content Include="AdminOrderDetails.aspx" />
+    <Content Include="AdminOrders.aspx" />
+    <Content Include="AdminProdoct.aspx" />
+    <Content Include="Checkout.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
@@ -216,7 +220,6 @@
     <Content Include="Images\orderedList9.png" />
     <Content Include="packages.config" />
     <Content Include="Images\Thumbs.db" />
-    <Content Include="PayInformation.aspx" />
     <Content Include="Scripts\home.js" />
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.8.2.js" />
@@ -249,7 +252,8 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\_references.js" />
-    <Content Include="Sri Lankan Menu.aspx" />
+    <Content Include="Srilankan.aspx" />
+    <Content Include="Tandoori.aspx" />
     <Content Include="UserControls\CustomerDetailsEdit.ascx" />
     <Content Include="ViewCart.aspx" />
     <Content Include="Web.config">
@@ -280,6 +284,45 @@
     <Compile Include="Account\RegisterCustomer.aspx.designer.cs">
       <DependentUpon>RegisterCustomer.aspx</DependentUpon>
     </Compile>
+    <Compile Include="AdminOrderDetails.aspx.cs">
+      <DependentUpon>AdminOrderDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminOrderDetails.aspx.designer.cs">
+      <DependentUpon>AdminOrderDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminOrders.aspx.cs">
+      <DependentUpon>AdminOrders.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminOrders.aspx.designer.cs">
+      <DependentUpon>AdminOrders.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminProdoct.aspx.cs">
+      <DependentUpon>AdminProdoct.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminProdoct.aspx.designer.cs">
+      <DependentUpon>AdminProdoct.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Checkout.aspx.cs">
+      <DependentUpon>Checkout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Checkout.aspx.designer.cs">
+      <DependentUpon>Checkout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CulinaryDelightConfiguration.cs" />
+    <Compile Include="GenericDataAccess.cs" />
+    <Compile Include="Link.cs" />
+    <Compile Include="ProductsAndOrders.cs" />
+    <Compile Include="ViewCart.aspx.cs">
+      <DependentUpon>ViewCart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewCart.aspx.designer.cs">
+      <DependentUpon>ViewCart.aspx</DependentUpon>
+    </Compile>
     <Content Include="App_Code\ProfileDataSource.cs" />
     <Content Include="App_Code\ProfileWrapper.cs" />
     <Content Include="App_Code\SecurityLib\PasswordHasher.cs" />
@@ -301,21 +344,21 @@
     <Compile Include="Gujarati.aspx.designer.cs">
       <DependentUpon>Gujarati.aspx</DependentUpon>
     </Compile>
-    <Compile Include="PayInformation.aspx.cs">
-      <DependentUpon>PayInformation.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="PayInformation.aspx.designer.cs">
-      <DependentUpon>PayInformation.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Product.cs" />
     <Compile Include="ShoppingCart .cs" />
-    <Compile Include="Sri Lankan Menu.aspx.cs">
-      <DependentUpon>Sri Lankan Menu.aspx</DependentUpon>
+    <Compile Include="Srilankan.aspx.cs">
+      <DependentUpon>Srilankan.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Sri Lankan Menu.aspx.designer.cs">
-      <DependentUpon>Sri Lankan Menu.aspx</DependentUpon>
+    <Compile Include="Srilankan.aspx.designer.cs">
+      <DependentUpon>Srilankan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tandoori.aspx.cs">
+      <DependentUpon>Tandoori.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tandoori.aspx.designer.cs">
+      <DependentUpon>Tandoori.aspx</DependentUpon>
     </Compile>
     <Compile Include="UserControls\CustomerDetailsEdit.ascx.cs">
       <DependentUpon>CustomerDetailsEdit.ascx</DependentUpon>
@@ -323,13 +366,6 @@
     </Compile>
     <Compile Include="UserControls\CustomerDetailsEdit.ascx.designer.cs">
       <DependentUpon>CustomerDetailsEdit.ascx</DependentUpon>
-    </Compile>
-    <Compile Include="ViewCart.aspx.cs">
-      <DependentUpon>ViewCart.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="ViewCart.aspx.designer.cs">
-      <DependentUpon>ViewCart.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\AuthConfig.cs" />

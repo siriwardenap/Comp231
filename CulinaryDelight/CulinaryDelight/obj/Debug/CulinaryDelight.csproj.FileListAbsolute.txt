@@ -27,3 +27,40 @@ C:\Users\Hui\Documents\Visual Studio 2012\Projects\CulinaryDelight\CulinaryDelig
 C:\Users\Hui\Documents\Visual Studio 2012\Projects\CulinaryDelight\CulinaryDelight\bin\DotNetOpenAuth.AspNet.xml
 C:\Users\Hui\Documents\Visual Studio 2012\Projects\CulinaryDelight\CulinaryDelight\obj\Debug\CulinaryDelight.dll
 C:\Users\Hui\Documents\Visual Studio 2012\Projects\CulinaryDelight\CulinaryDelight\obj\Debug\CulinaryDelight.pdb
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+C:\Users\Hui\Documents\Visual Studio 2012\Projects\CulinaryDelight\CulinaryDelight\obj\Debug\CulinaryDelight.csprojResolveAssemblyReference.cache
+F:\Semester5 project Software\CulinaryDelight\CulinaryDelight\bin\CulinaryDelight.dll
+F:\Semester5 project Software\CulinaryDelight\CulinaryDelight\bin\CulinaryDelight.pdb
+F:\Semester5 project Software\CulinaryDelight\CulinaryDelight\bin\Antlr3.Runtime.dll
+F:\Semester5 project Software\CulinaryDelight\CulinaryDelight\bin\AspNet.ScriptManager.jQuery.dll
+F:\Semester5 project Software\CulinaryDelight\CulinaryDelight\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+F:\Semester5 project Software\CulinaryDelight\CulinaryDelight\bin\DotNetOpenAuth.AspNet.dll
+F:\Semester5 project Software\CulinaryDelight\CulinaryDelight\bin\DotNetOpenAuth.Core.dll
+F:\Semester5 project Software\CulinaryDelight\CulinaryDelight\bin\DotNetOpenAuth.OAuth.Consumer.dll
+F:\Semester5 project Software\CulinaryDelight\CulinaryDelight\bin\DotNetOpenAuth.OAuth.dll
+F:\Semester5 project Software\CulinaryDelight\CulinaryDelight\bin\DotNetOpenAuth.OpenId.dll
+F:\Semester5 project Software\CulinaryDelight\CulinaryDelight\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+F:\Semester5 project Software\CulinaryDelight\CulinaryDelight\bin\EntityFramework.dll
+F:\Semester5 project Software\CulinaryDelight\CulinaryDelight\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+F:\Semester5 project Software\CulinaryDelight\CulinaryDelight\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+F:\Semester5 project Software\CulinaryDelight\CulinaryDelight\bin\Microsoft.ScriptManager.MSAjax.dll
+F:\Semester5 project Software\CulinaryDelight\CulinaryDelight\bin\Microsoft.ScriptManager.WebForms.dll
+F:\Semester5 project Software\CulinaryDelight\CulinaryDelight\bin\Microsoft.Web.Infrastructure.dll
+F:\Semester5 project Software\CulinaryDelight\CulinaryDelight\bin\System.Web.Optimization.dll
+F:\Semester5 project Software\CulinaryDelight\CulinaryDelight\bin\System.Web.Providers.dll
+F:\Semester5 project Software\CulinaryDelight\CulinaryDelight\bin\WebGrease.dll
+F:\Semester5 project Software\CulinaryDelight\CulinaryDelight\bin\EntityFramework.xml
+F:\Semester5 project Software\CulinaryDelight\CulinaryDelight\bin\DotNetOpenAuth.Core.xml
+F:\Semester5 project Software\CulinaryDelight\CulinaryDelight\bin\DotNetOpenAuth.OAuth.xml
+F:\Semester5 project Software\CulinaryDelight\CulinaryDelight\bin\DotNetOpenAuth.OAuth.Consumer.xml
+F:\Semester5 project Software\CulinaryDelight\CulinaryDelight\bin\DotNetOpenAuth.OpenId.xml
+F:\Semester5 project Software\CulinaryDelight\CulinaryDelight\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+F:\Semester5 project Software\CulinaryDelight\CulinaryDelight\bin\DotNetOpenAuth.AspNet.xml
+F:\Semester5 project Software\CulinaryDelight\CulinaryDelight\obj\Debug\CulinaryDelight.csprojResolveAssemblyReference.cache
+F:\Semester5 project Software\CulinaryDelight\CulinaryDelight\obj\Debug\CulinaryDelight.dll
+F:\Semester5 project Software\CulinaryDelight\CulinaryDelight\obj\Debug\CulinaryDelight.pdb
+=======
+>>>>>>> 4181a7c95f0ede7448661151e823d29f99e29f35
+>>>>>>> Dec 6

@@ -7,13 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CulinaryDelight.Account
-{
-
-
-    public partial class Login
-    {
-
+namespace CulinaryDelight.Account {
+    
+    
+    public partial class Login {
+        
         /// <summary>
         /// RegisterHyperLink control.
         /// </summary>
@@ -22,7 +20,7 @@ namespace CulinaryDelight.Account
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.HyperLink RegisterHyperLink;
-
+        
         /// <summary>
         /// OpenAuthLogin control.
         /// </summary>

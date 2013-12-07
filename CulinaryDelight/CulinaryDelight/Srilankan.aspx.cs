@@ -7,9 +7,10 @@ using System.Web.UI.WebControls;
 using System.Data;
 using System.Data.SqlClient;
 
+
 namespace CulinaryDelight
 {
-    public partial class Srilankan : System.Web.UI.Page
+    public partial class Srilankan1 : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -23,7 +24,7 @@ namespace CulinaryDelight
 
                 // the data from the "Authors" table.
                 SqlDataAdapter myCommand = new SqlDataAdapter("SELECT " +
-                   " * FROM Product Where productcat = 'Gujarati'", myConnection);
+                         " * FROM Product Where productcat = 'Srilankan'", myConnection);
                 // Create and fill a DataSet.
                 DataSet ds = new DataSet();
                 myCommand.Fill(ds);
@@ -40,7 +41,7 @@ namespace CulinaryDelight
             if (e.CommandName != "AddtoCart") return;
             int id = Convert.ToInt32(e.CommandArgument);
             ShoppingCart.Instance.AddItem(id);
-            Response.Redirect("ViewCart.aspx"); 
+            Response.Redirect("ViewCart.aspx");
         }
     }
 }

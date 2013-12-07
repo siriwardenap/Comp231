@@ -11,7 +11,7 @@ namespace CulinaryDelight.Account
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            RegisterHyperLink.NavigateUrl = "Register.aspx";
+            RegisterHyperLink.NavigateUrl = "RegisterCustomer.aspx";
             OpenAuthLogin.ReturnUrl = Request.QueryString["ReturnUrl"];
 
             var returnUrl = HttpUtility.UrlEncode(Request.QueryString["ReturnUrl"]);

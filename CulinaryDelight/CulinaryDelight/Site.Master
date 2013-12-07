@@ -47,17 +47,37 @@
                     <asp:LoginView runat="server" ViewStateMode="Disabled">
                         <AnonymousTemplate>
                             <ul>
+                                <li><a id="shoppingcart" runat="server" href="~/ViewCart.aspx">My Cart</a></li>
                                 <li><a id="registerLink" runat="server" href="~/Account/RegisterCustomer.aspx">Register</a></li>
                                 <li><a id="loginLink" runat="server" href="~/Account/Login.aspx">Log in</a></li>
                             </ul>
                         </AnonymousTemplate>
-                        <LoggedInTemplate>
-                            <p>
-                                Hello, <asp:LoginName ID="LoginName1" runat="server" CssClass="username" />!
-                                <a runat="server" class="username" href="~/Account/CustomerDetails.aspx" title="Manage your account">My Account</a>                                   
-                                <asp:LoginStatus runat="server" LogoutAction="Redirect" LogoutText="Log off" LogoutPageUrl="~/" />
-                            </p>
-                        </LoggedInTemplate>
+                        
+                        <%--<LoggedInTemplate>--%>
+                            <RoleGroups>
+                               <asp:RoleGroup Roles="Customers">
+                                   <ContentTemplate>
+                                        <p>
+                                            Hello, <asp:LoginName ID="LoginName1" runat="server" CssClass="username" />!
+                                            <a runat="server" class="username" href="~/Account/CustomerDetails.aspx" title="Manage your account">My Account</a>                                   
+                                            <a id="shoppingcart2" runat="server" href="~/ViewCart.aspx">My Cart</a>
+                                            <asp:LoginStatus runat="server" LogoutAction="Redirect" LogoutText="Log off" LogoutPageUrl="~/" />
+                                        </p>
+                                    </ContentTemplate>
+                                </asp:RoleGroup> 
+                                <asp:RoleGroup Roles="Administrators">
+                                   <ContentTemplate>
+                                        <p>
+                                            Hello, <asp:LoginName ID="LoginName2" runat="server" CssClass="username" />!                                            
+                                            <a id="productAdmin" runat="server" href="~/AdminProdoct.aspx">Products Admin</a>
+                                            <a id="A1" runat="server" href="~/AdminOrders.aspx">Orders Admin</a>
+                                            <asp:LoginStatus ID="LoginStatus2" runat="server" LogoutAction="Redirect" LogoutText="Log off" LogoutPageUrl="~/" />
+                                        </p>
+                                    </ContentTemplate>
+                                </asp:RoleGroup>
+                            </RoleGroups>
+                        <%--</LoggedInTemplate>--%>
+                        
                     </asp:LoginView>
                 </section>
                <%-- <nav>
@@ -70,12 +90,27 @@
 
                 <asp:Menu ID="Menu1" runat="server" StaticDisplayLevels="3" Orientation="Horizontal">
                   <Items>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+                    <asp:MenuItem Text="Home" ToolTip="Home" NavigateUrl="~/Default.aspx"></asp:MenuItem>   
+                    <asp:MenuItem Text="Sri-Lankan" Enabled="True" ToolTip="sri-lankan" Value="1" NavigateUrl="~/Srilankan.aspx"></asp:MenuItem>
+                    <asp:MenuItem Text="Gujarati" Enabled="True" ToolTip="gujarati" Value="2" NavigateUrl="~/Gujarati.aspx"></asp:MenuItem>
+                    <asp:MenuItem Text="Tandoori" Enabled="True" ToolTip="tandoori" Value="3" NavigateUrl="~/Tandoori.aspx"></asp:MenuItem>   
+                    <asp:MenuItem Text="About" NavigateUrl="~/About.aspx"></asp:MenuItem>                    
+                    <asp:MenuItem Text="Contact Us" Value="View" NavigateUrl="~/Contact.aspx"></asp:MenuItem>                    
+=======
+>>>>>>> Dec 6
                     <asp:MenuItem Text="Home" ToolTip="Home" NavigateUrl="~\Default.aspx"></asp:MenuItem>   
                     <asp:MenuItem Text="Sri-Lankan" Enabled="True" ToolTip="sri-lankan" Value="1"></asp:MenuItem>
                     <asp:MenuItem Text="Gujarati" Enabled="True" ToolTip="gujarati" Value="2" NavigateUrl="~\Gujarati.aspx"></asp:MenuItem>
                     <asp:MenuItem Text="Tandoori" Enabled="True" ToolTip="tandoori" Value="3"></asp:MenuItem>   
                     <asp:MenuItem Text="About" NavigateUrl="~\About.aspx"></asp:MenuItem>                    
                     <asp:MenuItem Text="Contact Us" Value="View" NavigateUrl="~\Contact.aspx"></asp:MenuItem>                    
+<<<<<<< HEAD
+=======
+>>>>>>> 4181a7c95f0ede7448661151e823d29f99e29f35
+>>>>>>> Dec 6
                   </Items>
                 </asp:Menu>
 

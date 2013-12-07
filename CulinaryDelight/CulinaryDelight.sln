@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CulinaryDelight", "CulinaryDelight\CulinaryDelight.csproj", "{A1887AEC-D9A4-4346-AB1E-08F5C57A2594}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestCulinaryDelight", "UnitTestCulinaryDelight\UnitTestCulinaryDelight.csproj", "{57D8ACF0-44BB-4C6D-AEA2-D0C41E0D23DD}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,10 +13,6 @@ Global
 		{A1887AEC-D9A4-4346-AB1E-08F5C57A2594}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1887AEC-D9A4-4346-AB1E-08F5C57A2594}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1887AEC-D9A4-4346-AB1E-08F5C57A2594}.Release|Any CPU.Build.0 = Release|Any CPU
-		{57D8ACF0-44BB-4C6D-AEA2-D0C41E0D23DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{57D8ACF0-44BB-4C6D-AEA2-D0C41E0D23DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{57D8ACF0-44BB-4C6D-AEA2-D0C41E0D23DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{57D8ACF0-44BB-4C6D-AEA2-D0C41E0D23DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

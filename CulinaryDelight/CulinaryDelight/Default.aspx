@@ -60,12 +60,15 @@
 <asp:Content ID="Content1" runat="server" contentplaceholderid="HeadContent">
     <style type="text/css">
         #td {
-            width: 276px;
+            width: 200px;
             height: 182px;
         }
         #sl {
             height: 182px;
-            width: 276px;
+            width: 200px;
+        }
+        #gj {
+            width: 199px;
         }
     </style>
 </asp:Content>

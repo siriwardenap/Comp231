@@ -29,6 +29,9 @@
             </asp:GridView>  
   
             <br />  
-            <asp:Button runat="server" ID="btnUpdateCart" Text="Update Cart" OnClick="btnUpdateCart_Click" />  
+        <p style="float: right">
+             <asp:Button runat="server" ID="btnUpdateCart" Text="Update Cart" OnClick="btnUpdateCart_Click" />  
+             <asp:Button ID="checkoutButton" runat="server" Text="Proceed to Checkout" onclick="checkoutButton_Click" />
+      </p>
         </div>
 </asp:Content>

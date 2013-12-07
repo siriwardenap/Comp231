@@ -10,7 +10,7 @@
 namespace CulinaryDelight {
     
     
-    public partial class Srilankan {
+    public partial class Srilankan1 {
         
         /// <summary>
         /// GridView1 control.
